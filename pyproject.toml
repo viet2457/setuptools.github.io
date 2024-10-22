@@ -130,7 +130,7 @@ type = [
 	# pin mypy version so a new version doesn't suddenly cause the CI to fail,
 	# until types-setuptools is removed from typeshed.
 	# For help with static-typing issues, or mypy update, ping @Avasam 
-	"mypy==1.11.*",
+	"mypy>=1.11,<1.14",
 ]
 
 
